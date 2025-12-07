@@ -1,0 +1,48 @@
+{
+  "name": "react2shell-security-toolkit",
+  "version": "1.0.0",
+  "description": "Security toolkit to detect and mitigate CVE-2025-55182 (React2Shell) vulnerability in React and Next.js applications",
+  "main": "index.js",
+  "bin": {
+    "react2shell-check": "./cli.js"
+  },
+  "scripts": {
+    "test": "node test.js",
+    "check": "node cli.js"
+  },
+  "keywords": [
+    "react",
+    "nextjs",
+    "security",
+    "vulnerability",
+    "CVE-2025-55182",
+    "react2shell",
+    "rce",
+    "server-components",
+    "cybersecurity"
+  ],
+  "author": "CodersLab <delvy.gonzalez@coderslab.io>",
+  "contributors": [
+    {
+      "name": "Delvy González",
+      "email": "delvy.gonzalez@coderslab.io",
+      "url": "https://coderslab.io"
+    }
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DelvyGonzalez/react2shell-security-toolkit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DelvyGonzalez/react2shell-security-toolkit/issues"
+  },
+  "homepage": "https://github.com/DelvyGonzalez/react2shell-security-toolkit#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0"
+  }
+}
